@@ -15,7 +15,7 @@ for line in update:
     ngrok = line.strip()
 print(ngrok)
 
-#subprocess.Popen(["xterm", "-e", "./start.sh"])
+subprocess.Popen(["xterm", "-e", "./start.sh"])
 #ngrok = "test"
 import smtplib
 from email.mime.multipart import MIMEMultipart
@@ -46,8 +46,7 @@ print('Mail Sent')
 mail_content = 'Ello! there tis a new ip!!'
 
 #The mail addresses and password
-sender_address = 'myvmwaremachines@gmail.com'
-sender_pass = 'emab1210'
+
 receiver_address = 'jgonzalez67@cherrycreekschools.org'
 #Setup the MIME
 message = MIMEMultipart()
