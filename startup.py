@@ -23,8 +23,8 @@ from email.mime.text import MIMEText
 mail_content = "Ello! there's a new ip!!"
 
 #The mail addresses and password
-sender_address = 'myvmwaremachines@gmail.com'
-sender_pass = 'emab1210'
+sender_address = 'hehe.exe.py@gmail.com'
+sender_pass = 'M5FS8rWDQatRq9'
 receiver_address = 'Jackgendill@icloud.com'
 #Setup the MIME
 message = MIMEMultipart()
